@@ -17,14 +17,17 @@ const Header = () => {
             <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors">
               Início
             </a>
-            <a href="#como-funciona" className="text-muted-foreground hover:text-foreground transition-colors">
-              Como Funciona
-            </a>
             <a href="#recursos" className="text-muted-foreground hover:text-foreground transition-colors">
               Recursos
             </a>
+            <a href="#como-funciona" className="text-muted-foreground hover:text-foreground transition-colors">
+              Como Funciona
+            </a>
             <a href="#precos" className="text-muted-foreground hover:text-foreground transition-colors">
               Preços
+            </a>
+            <a href="#depoimentos" className="text-muted-foreground hover:text-foreground transition-colors">
+              Depoimentos
             </a>
           </nav>
 
@@ -32,8 +35,8 @@ const Header = () => {
             <Button variant="ghost" className="hidden md:inline-flex">
               Entrar
             </Button>
-            <Button className="shadow-sm hover:shadow-md transition-all duration-300">
-              Cadastrar
+            <Button className="shadow-sm hover:shadow-md transition-all duration-300 bg-gradient-primary hover:scale-105">
+              Começar Grátis
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="w-5 h-5" />
